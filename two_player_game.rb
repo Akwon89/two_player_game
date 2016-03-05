@@ -39,6 +39,7 @@ def prompt_player_for_answer
       wrong_answer
       p "You are wrong!Player one's lives are #{@p1[:lives]}, and player two's lives are #{@p2[:lives]}!"
     end
+    @turn +=1
     if @p1[:lives] == 0 || @p2[:lives] == 0
       p "game over player ones lives are(#{@p1[:lives]}) and player twos lives are(#{@p2[:lives]})!"
       break
