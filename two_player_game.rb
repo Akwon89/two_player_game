@@ -1,4 +1,4 @@
-require 'pry'
+
 # players
 @p1 = { lives: 3 }
 @p2 = { lives: 3 }
